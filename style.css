@@ -1,0 +1,69 @@
+html
+{
+    background: #1E2122;
+}
+
+body
+{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 40px;
+    padding: 40px;
+    color: #d8d4cf;
+    border-top: 10px solid #eee;
+    background: #181A1B;
+    
+}
+
+h1
+{
+    font-size: 3em;
+    margin: 0;
+}
+
+p
+{
+    line-height: 1.4em;
+}
+
+#blog
+{
+    border-top: 2px dotted #eee;
+}
+
+.blog-post
+{
+    border-bottom: 2px dotted #eee;
+}
+
+img
+{
+    width:450px;
+    height: auto;
+}
+
+a[href*="html"]
+{
+    color: #71CBFF;
+}
+
+label, input
+{
+    display: table-cell;
+    margin-bottom: 15px;
+}
+
+
+.navigation
+{
+    display: inline-block;
+}
+
+a.current {
+    background-color: #ccc;
+    color: black;
+}
+
+table, td
+{
+    border: 1px solid #333;
+}
