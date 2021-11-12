@@ -110,3 +110,33 @@ article:nth-of-type(2)
     width: 250px;
     height: auto;
 }
+
+
+@media (max-width: 400px) 
+{
+    body
+    {
+        margin: 30px;
+        padding: 20px;
+        color: #e9d0b2;
+        
+    }
+    section
+    {
+        margin: 0;
+        padding: 0;
+    }
+    article
+    {
+        padding: 0;
+    }
+    img
+    {
+      width: 200px;
+      height: auto;  
+    }
+    section
+    {
+        display:inline-block;
+        
+}
